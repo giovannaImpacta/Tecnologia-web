@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício 5</title>
+        <link rel="stylesheet" type="text/css" href="style/styleAc2.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <ul>
+                <li>Giovanna Silva Resende - 1801110</li>
+            </ul> <br>
+
+            <h2>Cadastro editoras</h2> <br>
+
+            <form name="formCadastroEditoras" method="get" action="#">
+                <div><input class="inputDados" name="nomeEd" placeholder="Nome editora" type="text" required/></div>
+                <div><input class="inputDados" name="enderecoEd" placeholder="Endereco completo" type="text" required/></div>
+                <div><input class="inputDados" name="cnpjEd" placeholder="CNPJ" type="text" required/></div>
+                <div><input class="inputDados" name="siteEd" placeholder="Site" type="url" required/></div>
+                <div><input class="inputDados" name="telEd" placeholder="(99) 99999-9999" type="text" required/></div>
+                <div><input class="inputDados" name="nomeContatoEd" placeholder="Nome p/ contato" type="text" required/></div>
+                <div class="containerGeneros">
+                    <label><h3><b>Selecione os gêneros</b></h3></label>
+                    <div class="inputCheckBox"><input type="checkbox" name="pol" value="1"> <label>Policial</label></div>
+                    <div class="inputCheckBox"><input type="checkbox" name="fic" value="2"> <label>Ficção</label></div>
+                    <div class="inputCheckBox"><input type="checkbox" name="nfic" value="3"> <label>Não ficção</label></div>
+                    <div class="inputCheckBox"><input type="checkbox" name="reli" value="4"> <label>Religioso</label></div>
+                    <div class="inputCheckBox"><input type="checkbox" name="esp" value="5"> <label>Esporte</label></div>
+                    <div class="inputCheckBox"><input type="checkbox" name="prof" value="6"> <label>Profissional</label></div>
+                    <div class="inputCheckBox"><input type="checkbox" name="outros" value="7"> <label>Outros</label></div>
+                    <div class="btnSave"><input type="submit" name="btnSave" value="Salvar"></div>
+                </div>
+            </form>
+
+        </div>
+    </body>
+</html>
